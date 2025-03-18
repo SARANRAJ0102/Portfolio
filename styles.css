@@ -1,0 +1,87 @@
+/*  ==================== poppins font link ====================  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ==================== variables ====================  */
+:root{
+    --body-color: rgb(250, 250, 250);
+    --color-white: rgb(255, 255, 255);
+
+    --text-color-second: rgb(68, 68, 68);
+    --text-color-third: rgb(30, 159, 171);
+    
+    --first-color: rgb(110, 87, 224);
+    --first-color-hover: rgb(40, 91, 212);
+
+    --second-color: rgb(0, 201, 255);
+    --third-color: rgb(192, 166, 49);
+    --first-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ==================== smooth scroll ====================  */
+html{
+    scroll-behavior: smooth;
+}
+
+/* ==================== navigation bar ====================  */
+.brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text-color-third);
+}
+.nav-item .nav-link:hover{
+    color: var(--first-color);
+}
+
+/* ==================== main ====================  */
+.dev-color{
+    color: var(--text-color-third);
+}
+.btn-social{
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-social:hover{
+    color: var(--first-color-hover);
+}
+
+/* ==================== about ====================  */
+.about-btn{
+    margin-left: 280px;
+    background-color: var(--first-color);
+    transition: 0.2s;
+}
+.about-btn:hover{
+    color: black !important;
+    background-color: var(--first-color-hover) !important;
+}
+.about-btn-1{
+    background-color: var(--first-color);
+    transition: 0.2s;
+}
+.about-btn-1:hover{
+    color: black !important;
+    background-color: var(--first-color-hover) !important;
+}
+
+/* ==================== contact ====================  */
+.contact{
+    background-color: var(--second-color);
+}
+.contact-btn{
+    background-color: var(--second-color);
+    transition: 0.2s;
+}
+
+.contact-btn:hover{
+    color: black !important;
+    background-color: rgb(0, 200, 255) !important;
+}
+
+/* ==================== footer ====================  */
+.footer{
+    transition: 0.2s;
+}
+.footer:hover{
+    color:blue !important ;
+}
